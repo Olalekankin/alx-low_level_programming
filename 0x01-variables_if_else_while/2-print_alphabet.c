@@ -2,15 +2,15 @@
 #include <stdlib.h>
 /**
  * main - print alphabet in lowercase
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
-	char c;
+	char lc;
 
-	for (c 'a'; c <= 'z'; c++)
+	for (lc 'a'; lc <= 'z'; lc++)
 	{
-		putchar(c);
+		putchar(lc);
 	}
 	putchar('\n');
 	return (0);
